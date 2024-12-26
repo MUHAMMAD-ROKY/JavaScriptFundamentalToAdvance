@@ -7,6 +7,14 @@ for(var i=0; i<3; i++){
     });
 }
 
+// adding keypress  
+document.addEventListener("keypress",function(event){
+    var text = event.key;
+    audioPlay(text);
+    playAnimation(text);
+});
+
+
 function audioPlay(text){
     switch(text){
         case "a":
