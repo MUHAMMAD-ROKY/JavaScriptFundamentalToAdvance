@@ -66,8 +66,7 @@ Promise.all([promise4,promise5]).then(([res4,res5])=>console.log(res4,res5));
 
 
 
-
-
+//race 
 const promise7 = new Promise((resolve,reject)=>{
     setTimeout(()=>{
         resolve("completed promise 7");
