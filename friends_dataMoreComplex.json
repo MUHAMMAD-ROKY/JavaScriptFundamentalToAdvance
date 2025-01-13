@@ -1,0 +1,42 @@
+{
+    "students":[
+    {
+        "name":"mazherul islam",
+        "middleName":null,
+        "age":25,
+        "cgpa":3.556,
+        "isRegistered":true,
+        "languages":["Bangla","English","arabic"],
+        "friends":[
+            {
+                "name":"jim",
+                "age":25
+            },
+            {
+                "name":"tony",
+                "age":32
+            }
+        ]
+    },     
+       
+    {
+        "name":"kamal islam",
+        "middleName":null,
+        "age":25,
+        "cgpa":3.256,
+        "isRegistered":true,
+        "languages":["Bangla","English","arabic"],
+        "friends":[
+            {
+                "name":"mark",
+                "age":28
+            },
+            {
+                "name":"tony",
+                "age":35
+            }
+        ]
+    }  
+]
+
+}
